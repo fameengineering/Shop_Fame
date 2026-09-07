@@ -60,14 +60,14 @@ Then visit `http://localhost:8000`.
 
 ## Hosting on GitHub Pages
 
-The site is already pushed to `https://github.com/asmar1617/Fame_Engineering-`
+The site is already pushed to `https://github.com/fameengineering/Shop_Fame`
 on branch `main`. To make it live:
 
 1. On GitHub: go to **Settings → Pages**.
 2. Under **Build and deployment → Source**, choose **Deploy from a branch**.
 3. Under **Branch**, choose `main` and folder `/ (root)`, then **Save**.
 4. Wait a minute, then the site will be live at:
-   `https://asmar1617.github.io/Fame_Engineering-/`
+   `https://fameengineering.github.io/Shop_Fame/`
 
 ### Custom domain (optional)
 
