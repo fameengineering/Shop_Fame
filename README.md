@@ -46,6 +46,26 @@ still left:
       real list (both halves must stay identical and in the same order for
       the loop to stay seamless).
 
+## Important: bump the cache version after editing CSS or JS
+
+GitHub Pages tells browsers to cache files for 10 minutes, and browsers
+often hold them far longer. If a visitor loads new `index.html` with an old
+cached `styles.css`, the page renders broken (this actually happened: the
+About photo was hidden behind its background panel).
+
+To prevent it, `index.html` loads both files with a version marker:
+
+```html
+<link rel="stylesheet" href="css/styles.css?v=2">
+<script src="js/main.js?v=2"></script>
+```
+
+**Whenever you change `css/styles.css` or `js/main.js`, increase both numbers**
+(`?v=3`, `?v=4`, …). The browser treats the new URL as a different file and
+fetches it immediately instead of reusing the stale copy.
+
+To force a refresh in your own browser right now, press `Ctrl+Shift+R`.
+
 ## Running locally
 
 No install needed — just open `index.html` in a browser. Or, for a local server
