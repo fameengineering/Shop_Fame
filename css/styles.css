@@ -540,21 +540,17 @@ section{ padding: 80px 0; }
   border-radius: 24px;
   z-index: 0;
 }
-.about-photo-placeholder{
+.about-photo{
   position: relative;
   z-index: 1;
-  aspect-ratio: 4/3;
-  background: var(--gray-100);
-  border: 2px dashed var(--gray-200);
-  border-radius: var(--radius);
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  gap: 12px;
-  color: var(--gray-500);
+  width: 100%;
+  height: auto;
+  aspect-ratio: 4/5;
+  object-fit: cover;
+  object-position: center top;
+  border-radius: var(--radius-lg);
+  box-shadow: var(--shadow-lg);
 }
-.about-photo-placeholder svg{ width: 48px; height: 48px; fill: var(--gray-500); }
 .about-badge{
   position: absolute;
   z-index: 2;

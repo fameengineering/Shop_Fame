@@ -9,7 +9,8 @@ repair). Plain HTML/CSS/JS — no build step, no framework, no server required.
 index.html        Main page (all sections)
 css/styles.css     All styling
 js/main.js         Mobile menu + small helpers
-images/logo.jpg    Real shop logo (used in header + favicon)
+images/logo.jpg        Shop logo (header + favicon)
+images/proprietor.jpg  Rana Shabir Ahmad portrait (About section)
 ```
 
 ## Before you launch — fill these in
@@ -23,8 +24,10 @@ still left:
       a real submission comes in — someone needs to submit the form once and
       click that confirmation link (check `fameengineering5@gmail.com`,
       including spam) before submissions start arriving normally.
-- [ ] Shop photo — in the About section, replace the dashed placeholder box
-      with a real photo, e.g. `<img src="images/shop.jpg" alt="Fame Engineering workshop">`
+- [x] About photo — the proprietor's portrait (`images/proprietor.jpg`) is in
+      the About section, with the "Rana Shabir Ahmad / Proprietor" badge on it.
+- [ ] Optional: a photo of the workshop itself would add a lot. There's no
+      slot for one yet — ask and it can be added (e.g. alongside Services).
 - [ ] Opening hours — not on the letterhead; add a line to the Address card
       in the Contact section if you want hours displayed
 - [ ] Confirm `+92 300 4689475` is the right number for the WhatsApp links
